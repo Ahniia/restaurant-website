@@ -1,0 +1,31 @@
+
+
+.container {
+    display: flexbox;
+    
+}
+
+
+.title {
+    padding-top: 10%;
+    font-family: 'Sacramento', cursive;
+    font-size: 52px;
+    color: rgb(212, 4, 4);
+    font-weight: 800;
+}
+
+.text {
+    display: flexbox;
+    width: 70%;
+    font-size: 20px;
+}
+
+div.main {
+    display: flexbox;
+    height: 20vh;
+    background-image: url("/assets/images/shrimp01.png");
+    background-size: contain;
+    background-position: center;
+    opacity: 0.2;
+    margin-bottom: -10%;
+}

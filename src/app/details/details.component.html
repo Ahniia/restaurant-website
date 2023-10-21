@@ -1,0 +1,14 @@
+<h2>Product Details</h2>
+
+
+<div class="conteiner">
+    <div class="card mb-3" *ngIf="dish">
+        <img src="{{ dish.image }}" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h3 class="card-title">{{ dish.name }}</h3>
+        <p class="card-text">{{ dish.description }}</p>
+        <p class="card-text">Price: {{ dish.price }}</p>
+        <button type="button" class="btn btn-danger" (click)="addToCart()">Buy</button>
+        </div>
+    </div>
+</div>

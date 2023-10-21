@@ -1,0 +1,43 @@
+<h3>Cart</h3>
+
+
+
+<div class="card mb-2 container"  *ngFor="let item of items">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ item.image }}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.name }}</h5>
+          <p class="card-text">{{ item.description }}</p>
+          <h4 class="price">Price: {{ item.price }} €</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="totalprice">
+  <table>
+    <tr>
+      <th>Summary</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>Products</td>
+      <td>{{ total }}</td>
+    </tr>
+    <tr>
+      <td>Service:</td>
+      <td>{{ (totalSer.toFixed(2)) }}</td>
+    </tr>
+    <tr>
+      <td>Diccount:</td>
+      <td>{{ calcdiccound.toFixed(2) }}</td>
+    </tr>
+    <tr class="amount">
+      <td>Total:</td>
+      <td>{{ total01.toFixed(2) }}</td>
+    </tr>
+  </table>
+</div>

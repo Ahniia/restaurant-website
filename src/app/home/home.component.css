@@ -1,0 +1,47 @@
+.logoFont {
+    font-size: 80px;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    color: rgb(212, 4, 4);
+    
+}
+
+.contBtn {
+    margin-top: 20px;
+}
+
+.hero {
+    display: flexbox;
+    background-image: url("/assets/images/shrimp06.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cont {
+    display: flexbox;
+    margin-top: 8%;
+}
+
+.cont01 {
+    display: flexbox;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img {
+    object-fit: cover;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.lead {
+    display: flexbox;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 8%;
+}

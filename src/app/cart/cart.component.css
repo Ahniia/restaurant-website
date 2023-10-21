@@ -1,0 +1,38 @@
+h3 {
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.container {
+    display: flexbox;
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
+}
+img { 
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.totalprice {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: justify;
+}
+
+table {
+    font-size: 24px;
+}
+td { 
+    padding-right: 30px;
+
+ }
+ .amount td {
+    font-size: 32px;
+    font-weight: 600;
+ }

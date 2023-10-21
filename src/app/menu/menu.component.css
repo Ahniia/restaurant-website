@@ -1,0 +1,34 @@
+.imgCard {
+    height: 16em;
+    object-fit: cover;
+}
+
+.ctitle {
+    font-family: 'Sacramento', cursive;
+    font-size: 38px;
+    font-weight: 500;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.main {
+    display: flexbox;
+    padding-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.btn {
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+.avail {
+    background-color: rgb(218, 218, 218);
+}
+.pric {
+    margin-bottom: 14px;
+}
