@@ -12,7 +12,7 @@
 
 .hero {
     display: flexbox;
-    background-image: url("/assets/images/shrimp06.jpg");
+    background-image: url("src/assets/images/shrimp06.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;

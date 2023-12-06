@@ -23,7 +23,7 @@
 div.main {
     display: flexbox;
     height: 20vh;
-    background-image: url("/assets/images/shrimp01.png");
+    background-image: url("src/assets/images/shrimp01.png");
     background-size: contain;
     background-position: center;
     opacity: 0.2;

@@ -1,4 +1,6 @@
 .main {
     font-family: 'Forum', serif;
     background-color: rgb(252, 244, 233);
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
 }
